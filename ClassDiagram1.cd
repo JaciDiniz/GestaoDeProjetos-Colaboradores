@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gestão_de_Projetos.Tecnologia" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Tecnologia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.Colaborador">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADACAAAAAgAAAIAAgAIAAAAAAAAQAAAAAAAAAIEQAAA=</HashCode>
+      <FileName>Colaborador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorAdicionar" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACACABAAAASAgIACAAAgEAgABCggAACABAA=</HashCode>
+      <FileName>ColaboradorAdicionar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorAdicionarTecnologia" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAABAAAAKAgAACAAAAAAEAACAgAACAAAA=</HashCode>
+      <FileName>ColaboradorAdicionarTecnologia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorConsultar" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACEACBAAAACAgADyAwAAAABAAAAAAAAIAAA=</HashCode>
+      <FileName>ColaboradorConsultar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorEditar" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACCCABAAAACAgIACAIAAEAgABCAgAACABAA=</HashCode>
+      <FileName>ColaboradorEditar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorEditarLista" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAEACEgARAAAACAgCDyAwAAAAAAAAACAAAIACA=</HashCode>
+      <FileName>ColaboradorEditarLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorEliminar" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAACEAAJABAQCAgCDyAAAAAAAAAgAAAAAIAAI=</HashCode>
+      <FileName>ColaboradorEliminar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ColaboradorListar" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAAAAAACAgADyAwAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ColaboradorListar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.db_ColaboradoresDataSet" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAwAAAAJABAAAQAAAQAgCQBgAAAAAAAEgBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.GestaoColaboradores" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAGAACABAIKCAAAADABAgAACAAAAQAAAAAAA=</HashCode>
+      <FileName>GestaoColaboradores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.GestaoProjetos" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAgABACAAAEAEACCAAAACAAEgAAAAgAAgEAAAAAg=</HashCode>
+      <FileName>GestaoProjetos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.GestorProjeto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFwAgAQAIMABEAAGAABBAEIAABAgAAQAAgAIAAAAAQg=</HashCode>
+      <FileName>GestorProjeto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Gestão_de_Projetos.GestorProjetos" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAADAAABAAACSAAAACAJAgAQAAABAAAAAAAAA=</HashCode>
+      <FileName>GestorProjetos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.GestorRedes">
+    <Position X="3.25" Y="4.5" Width="2" />
+    <InheritanceLine Type="Gestão_de_Projetos.Colaborador" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="3.978" />
+        <Point X="4" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>GestorRedes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.OperacionalTecnico">
+    <Position X="5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>OperacionalTecnico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.Program" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.Programador">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Programador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ProjetoAlterar" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAABAIhCAAABAAAACAgAICAIAACCABACggAACBAFA=</HashCode>
+      <FileName>ProjetoAlterar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ProjetoAlterarLista" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABKAAABAAAACCgAACBwAAAAAAAAAAAACKAAA=</HashCode>
+      <FileName>ProjetoAlterarLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ProjetoConsultar" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAABAAAACAgAACAwAAAAABAAAAAACIAAA=</HashCode>
+      <FileName>ProjetoConsultar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.CustosAtuais" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAQBCAAABAAAACAgAD+AwASAAAAAAAAAACiAEA=</HashCode>
+      <FileName>ProjetoCustosAtuais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ProjetoEliminar" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABCAAAJAAAACAgCACAwAAAAABAAAAAACIAAA=</HashCode>
+      <FileName>ProjetoEliminar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.ProjetoInserir" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIACAAABAAAACAgAICAAAQAAAAACAAAAChAEA=</HashCode>
+      <FileName>ProjetoInserir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.Projetos" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAAEIAAAAAACAABAAAAAIAAAAAAAAEAAAA=</HashCode>
+      <FileName>Projetos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.db_ColaboradoresDataSetTableAdapters.projetoTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gestão_de_Projetos.db_ColaboradoresDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAAChAAAAAQAAAAgBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Gestão_de_Projetos.IGestorProjetos" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwAgAQAAMABEAAGAABAAEIAABAgAAQAAgAIAAAAAQg=</HashCode>
+      <FileName>IGestorProjetos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
